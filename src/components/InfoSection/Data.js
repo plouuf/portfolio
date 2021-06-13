@@ -5,7 +5,8 @@ export const homeObjOne = {
   lightTextDesc: true,
   topLine: 'About',
   headLine: 'Profile',
-  description: 'I am a Computer Science student at Memorial University of Newfoundland. I am an enthusiatic individual with attention to detail and excellent organizational skills. Motivated to learn, grow and excel in the software industry.',
+  description:
+    'I am a Computer Science student at Memorial University of Newfoundland. I am an enthusiatic individual with attention to detail and excellent organizational skills. Motivated to learn, grow and excel in the software industry.',
   buttonLabel: '',
   imgStart: true,
   img: require('../../images/svg-1.svg').default,
@@ -30,22 +31,7 @@ export const homeObjTwo = {
   dark: false,
   primary: false,
   darkText: true,
-  linkto: "//www.drive.google.com/uc?export=download&id=1DpRZgAVUHKLMwVvscC7DexcPe3EpcyS7"
+  linkto:
+    '//www.drive.google.com/uc?export=download&id=1DpRZgAVUHKLMwVvscC7DexcPe3EpcyS7',
 };
 
-// export const homeObjThree = {
-//   id: 'contact',
-//   lightBg: true,
-//   lightText: false,
-//   lightTextDesc: false,
-//   topLine: 'Contact',
-//   headLine: "Let's Talk",
-//   description: 'Get access to our exclusive app',
-//   buttonLabel: 'Contact Me',
-//   imgStart: false,
-//   img: require('../../images/svg-3.svg').default,
-//   alt: 'Profile',
-//   dark: false,
-//   primary: false,
-//   darkText: true,
-// };

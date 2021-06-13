@@ -6,7 +6,7 @@ import { homeObjOne, homeObjTwo } from '../components/InfoSection/Data';
 import { contactObj } from '../components/Contact/Data';
 import Navbar from '../components/Navbar';
 import Projects from '../components/ProjectSection';
-import Contact from '../components/Contact'
+import Contact from '../components/Contact';
 import Sidebar from '../components/Sidebar';
 
 const Home = () => {
@@ -21,10 +21,10 @@ const Home = () => {
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
       <HeroSection />
-      <InfoSection {...homeObjOne}/>
+      <InfoSection {...homeObjOne} />
       <InfoSection {...homeObjTwo} />
-      <Projects className="ProSec"/>
-      <Contact {...contactObj}/>
+      <Projects/>
+      <Contact {...contactObj} />
       <Footer />
     </>
   );

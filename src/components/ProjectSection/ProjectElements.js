@@ -61,7 +61,6 @@ export const ProjectCard = styled.a`
   @media screen and (max-width: 768px) {
     max-height: 150px;
   }
-
 `;
 
 export const ProjectIcon = styled.img`
@@ -92,7 +91,6 @@ export const ProjectH1 = styled.h1`
   justify-content: center;
   color: #02bfbf;
 
-
   @media screen and (max-width: 480px) {
     font-size: 1.8rem;
   }
@@ -109,7 +107,7 @@ export const ProjectLink = styled.a`
   @media screen and (max-width: 768px) {
     font-size: 20px;
   }
-`
+`;
 
 export const ProjectH2 = styled.h2`
   font-size: 1rem;
@@ -132,6 +130,6 @@ export const ProjectP = styled.p`
   }
 
   @media screen and (max-width: 768px) {
-    font-size: 0px
+    font-size: 0px;
   }
 `;

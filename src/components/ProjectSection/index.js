@@ -19,8 +19,18 @@ import {
 
 const icons = [Icon1, Icon2, Icon3, Icon4];
 const title = ['Pingou Adventure', 'Fast Migrate', 'PathFinder', 'Blokus'];
-const des = ['A platform game of a penguin in an ice world', 'A web app to help people with migration', 'A pathfinding app implementing Q-learning', 'A fun 4 player board game made virtual']
-const gitlink = ['//www.github.com/plouuf/Pingou-s-Adventure', '//www.github.com/plouuf/Fast-Migrate/tree/master/Fast Migrate', '//www.github.com/plouuf/Comp3200/tree/master/Assignment 5', '//www.github.com/plouuf/Blokus']
+const des = [
+  'A platform game of a penguin in an ice world',
+  'A web app to help people with migration',
+  'A pathfinding app implementing Q-learning',
+  'A fun 4 player board game made virtual',
+];
+const gitlink = [
+  '//www.github.com/plouuf/Pingou-s-Adventure',
+  '//www.github.com/plouuf/Fast-Migrate/tree/master/Fast Migrate',
+  '//www.github.com/plouuf/Comp3200/tree/master/Assignment 5',
+  '//www.github.com/plouuf/Blokus',
+];
 
 const Projects = () => {
   const NextArrow = ({ onClick }) => {
@@ -64,9 +74,9 @@ const Projects = () => {
             >
               <ProjectIcon src={img} />
               <ProjectH2>{title[idx]}</ProjectH2>
-              <ProjectP>{ des[idx]}</ProjectP>
+              <ProjectP>{des[idx]}</ProjectP>
               <ProjectLink
-                href={ gitlink[idx]}
+                href={gitlink[idx]}
                 target="_blank"
                 aria-label="Github"
                 title="View source code on Github"

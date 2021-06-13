@@ -1,6 +1,5 @@
-@import "~slick-carousel/slick/slick.css";
-@import "~slick-carousel/slick/slick-theme.css";
-
+@import '~slick-carousel/slick/slick.css';
+@import '~slick-carousel/slick/slick-theme.css';
 
 * {
   box-sizing: border-box;
@@ -23,7 +22,7 @@ body {
   height: 1000px;
 } */
 
-.slide img{
+.slide img {
   width: 200px;
   margin: 0 auto;
 }
@@ -54,7 +53,7 @@ body {
   transition: color 300ms;
 }
 
-.arrow svg:hover{
+.arrow svg:hover {
   color: #02bfbf;
 }
 
@@ -68,35 +67,37 @@ body {
   top: 50%;
 }
 
-
 .text-typing-1 {
-  margin:0px;
-  white-space:nowrap;
-  overflow:hidden;
-  animation: typing 2s steps(22, end) forwards, blink .5s step-end alternate;
+  margin: 0px;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 2s steps(22, end) forwards, blink 0.5s step-end alternate;
 }
 
 .text-typing-2 {
-  margin:0px;
-  white-space:nowrap;
-  overflow:hidden;
-  animation: typing 2s steps(22, end) forwards, blink .5s step-end alternate;
+  margin: 0px;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 2s steps(22, end) forwards, blink 0.5s step-end alternate;
   animation-delay: 2s;
   animation-fill-mode: both;
 }
 
-
 @keyframes typing {
-  0% { width:0% }
-  100% { width:100% }
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
 }
 
-
 @keyframes blink {
-  0%,100% {
-    border-right:2px solid transparent;
+  0%,
+  100% {
+    border-right: 2px solid transparent;
   }
   50% {
-    border-right:2px solid #fff;
+    border-right: 2px solid #fff;
   }
 }

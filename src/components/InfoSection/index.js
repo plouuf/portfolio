@@ -30,9 +30,9 @@ const InfoSection = ({
   primary,
   dark,
   dark2,
-  linkto
+  linkto,
 }) => {
-  if (id === "resume" || id === "contact") {
+  if (id === 'resume' || id === 'contact') {
     return (
       <>
         <InfoContainer lightBg={lightBg} id={id}>
@@ -48,15 +48,16 @@ const InfoSection = ({
                       smooth={true}
                       duration={500}
                       spy={true}
-                      exact='true'
+                      exact="true"
                       offset={45}
                       primary={primary ? 1 : 0}
                       dark={dark ? 1 : 0}
                       dark2={dark2 ? 1 : 0}
                       href={linkto}
                       target="_blank"
-                      
-                    >{buttonLabel}</ButtonA>
+                    >
+                      {buttonLabel}
+                    </ButtonA>
                   </BtnWrap>
                 </TextWrapper>
               </Column1>
@@ -94,7 +95,6 @@ const InfoSection = ({
       </>
     );
   }
-  
 };
 
 export default InfoSection;

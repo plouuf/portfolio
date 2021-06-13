@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { MdArrowForward, MdKeyboardArrowRight} from 'react-icons/md'
+import { MdArrowForward, MdKeyboardArrowRight } from 'react-icons/md';
 
 export const HeroContainer = styled.div`
   background: #0c0c0c;
@@ -18,7 +18,12 @@ export const HeroContainer = styled.div`
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(180deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.6) 100%), linear-gradient(180deg, rgba(0,0,0,0.2) 0%, transparent 100%);
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.2) 0%,
+        rgba(0, 0, 0, 0.6) 100%
+      ),
+      linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, transparent 100%);
     z-index: 2;
   }
 `;
@@ -65,7 +70,6 @@ export const HeroH1 = styled.h1`
     font-size: 26px;
   }
 `;
-
 
 export const HeroP = styled.p`
   margin-top: 24px;

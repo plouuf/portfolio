@@ -23,15 +23,26 @@ const HeroSection = () => {
     <>
       <HeroContainer>
         <HeroBg>
-          <VideoBg playsInline autoPlay loop muted src={Video} type="/video/mp4" />
+          <VideoBg
+            playsInline
+            autoPlay
+            loop
+            muted
+            src={Video}
+            type="/video/mp4"
+          />
         </HeroBg>
         <HeroContent>
           <HeroH1 className="text-typing-1">
             Hey 👋, my name is
-            <span id="name" className="text-typing-1"> Hans </span>
-            
+            <span id="name" className="text-typing-1">
+              {' '}
+              Hans{' '}
+            </span>
           </HeroH1>
-          <HeroP className="text-typing-2">I am a Junior Software Developer</HeroP>
+          <HeroP className="text-typing-2">
+            I am a Junior Software Developer
+          </HeroP>
           <HeroBtnWrapper>
             <ButtonL
               to="about"

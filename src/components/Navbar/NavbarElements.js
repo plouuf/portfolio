@@ -1,9 +1,9 @@
-import styled from 'styled-components'
-import { Link as LinkR } from 'react-router-dom'
-import { Link as LinkS } from 'react-scroll'
+import styled from 'styled-components';
+import { Link as LinkR } from 'react-router-dom';
+import { Link as LinkS } from 'react-scroll';
 
 export const Nav = styled.nav`
-  background: ${({scrollNav}) => (scrollNav ? '#000' : 'rgba(0, 0, 0, 0.8)')};
+  background: ${({ scrollNav }) => (scrollNav ? '#000' : 'rgba(0, 0, 0, 0.8)')};
   height: 80px;
   margin-top: -80px;
   display: flex;
@@ -50,7 +50,7 @@ export const MobileIcon = styled.div`
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
-    color: #fff
+    color: #fff;
   }
 `;
 
@@ -61,7 +61,7 @@ export const NavMenu = styled.ul`
   text-align: center;
   margin-right: -22px; //can play with that
 
-  @media screen and (max-width:768px) {
+  @media screen and (max-width: 768px) {
     display: none;
   }
 `;

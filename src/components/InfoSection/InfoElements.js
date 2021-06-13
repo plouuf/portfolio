@@ -50,7 +50,6 @@ export const Column2 = styled.div`
   margin-bottom: 15px;
   padding: 15px 0;
   grid-area: col2;
-
 `;
 
 export const TextWrapper = styled.div`

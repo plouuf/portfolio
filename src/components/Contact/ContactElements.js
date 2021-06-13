@@ -82,9 +82,7 @@ export const Subtitle = styled.p`
   color: ${({ darkText }) => (darkText ? '#010606' : '#fff')};
 `;
 
-export const FormWrapper = styled.form`
-
-`;
+export const FormWrapper = styled.form``;
 
 export const InputName = styled.input`
   padding: 20px;
@@ -98,7 +96,7 @@ export const InputName = styled.input`
   outline: none;
   height: 22px;
   width: 360px;
-`
+`;
 
 export const InputEmail = styled.input`
   padding: 20px;
@@ -111,7 +109,7 @@ export const InputEmail = styled.input`
   outline: none;
   height: 22px;
   width: 360px;
-`
+`;
 
 export const TextArea = styled.textarea`
   padding: 20px;
@@ -128,7 +126,7 @@ export const TextArea = styled.textarea`
   height: 150px;
   width: 360px;
   min-height: 100px;
-`
+`;
 
 export const BtnWrap = styled.div`
   display: flex;
