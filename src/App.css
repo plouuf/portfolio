@@ -40,6 +40,16 @@ body {
   cursor: pointer;
 }
 
+.slick-dots li button:before {
+  color: #02bfbf;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #02bfbf !important;
+  transform: scale(1.5);
+  transition: all 0.3s ease-in-out;
+}
+
 .arrow {
   background-color: #010606;
   color: #fff;

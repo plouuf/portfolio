@@ -48,6 +48,7 @@ export const ProjectCard = styled.a`
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease-in-out;
   overflow: hidden;
+  cursor: pointer;
 
   &:hover {
     transition: all 0.2s ease-in-out;
@@ -89,6 +90,9 @@ export const ProjectH1 = styled.h1`
   display: flex;
   align-items: center;
   justify-content: center;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
   color: #02bfbf;
 
   @media screen and (max-width: 480px) {

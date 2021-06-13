@@ -23,7 +23,7 @@ export const homeObjTwo = {
   lightTextDesc: false,
   topLine: 'Resume',
   headLine: 'Skills and Qualifications',
-  description: `Python, Java, JavaScript, React, HTML5 & CSS3.\n Data Structures, Data Management, Artificial Intelligence and Web Development. Feel free to download my resume for more details`,
+  description: `Python, Java, JavaScript, React, HTML5 & CSS3.\n Data Structures, Data Management, Artificial Intelligence and Web Development. Feel free to download my resume for more details.`,
   buttonLabel: 'Download Resume',
   imgStart: false,
   img: require('../../images/svg-2.svg').default,

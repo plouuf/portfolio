@@ -52,12 +52,14 @@ const Projects = () => {
   const [imageIndex, setImageIndex] = useState(0);
 
   const settings = {
+    dots: true,
     infinite: true,
     lazyLoad: true,
-    speed: 300,
+    speed: 500,
     slidesToShow: 3,
     centerMode: true,
-    centerPadding: 0,
+    centerPadding: '10px',
+    autoplay: true,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
     beforeChange: (current, next) => setImageIndex(next),
