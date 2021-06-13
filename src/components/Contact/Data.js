@@ -1,0 +1,16 @@
+export const contactObj = {
+  id: 'contact',
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: 'Contact',
+  headLine: "Let's Talk",
+  description: '',
+  buttonLabel: 'Submit',
+  imgStart: true,
+  img: require('../../images/svg-3.svg').default,
+  alt: 'Profile',
+  dark: false,
+  primary: false,
+  darkText: true,
+};

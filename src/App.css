@@ -1,38 +1,102 @@
-.App {
-  text-align: center;
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  overflow-x: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+#name {
+  color: #02bfbf;
+}
+
+/* .ProSec {
+  width: 70%;
+  margin: 10rem auto;
+  height: 1000px;
+} */
+
+.slide img{
+  width: 200px;
+  margin: 0 auto;
+}
+
+.slide {
+  transform: scale(0.2);
+  transition: transform 300ms;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.activeSlide {
+  transform: scale(1);
+  opacity: 1;
+  cursor: pointer;
+}
+
+.arrow {
+  background-color: #010606;
+  color: #fff;
+  /* background: #fff; */
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.arrow svg {
+  transition: color 300ms;
+}
+
+.arrow svg:hover{
+  color: #02bfbf;
+}
+
+.next {
+  right: 0%;
+  top: 50%;
+}
+
+.prev {
+  left: 0%;
+  top: 50%;
+}
+
+
+.text-typing-1 {
+  margin:0px;
+  white-space:nowrap;
+  overflow:hidden;
+  animation: typing 2s steps(22, end) forwards, blink .5s step-end alternate;
+}
+
+.text-typing-2 {
+  margin:0px;
+  white-space:nowrap;
+  overflow:hidden;
+  animation: typing 2s steps(22, end) forwards, blink .5s step-end alternate;
+  animation-delay: 2s;
+  animation-fill-mode: both;
+}
+
+
+@keyframes typing {
+  0% { width:0% }
+  100% { width:100% }
+}
+
+
+@keyframes blink {
+  0%,100% {
+    border-right:2px solid transparent;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+  50% {
+    border-right:2px solid #fff;
   }
 }
